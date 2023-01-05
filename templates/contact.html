@@ -1,0 +1,77 @@
+{% include "header.html" %}
+
+<!-- Page Header -->
+<header class="masthead" style="background-image: url('{{ url_for('static', filename='images/Lake_Como.jpeg')}}')" title="Lake Como, Italy - 2022">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <div class="page-heading">
+                    <h1>Contact Me</h1>
+                    <span class="subheading">Any questions? I will answer them.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Main Content -->
+<div class="container">
+    
+    <div class="row">
+        
+        <div class="col-lg-8 col-md-10 mx-auto">
+            
+            <p>Fill out the form below to send me a message, and I'll get back to you as soon as
+                possible!</p>
+            
+            <form id="contactForm" name="sentMessage" method="POST" action="{{ url_for('contact') }}" novalidate>
+                
+                <div class="control-group">
+                    <div class="form-group floating-label-form-group controls">
+                        <label>Name</label>
+                        <input class="form-control" data-validation-required-message="Please enter your name." id="name" placeholder="Name" required
+                               type="text" name="name">
+                        <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+                
+                <div class="control-group">
+                    <div class="form-group floating-label-form-group controls">
+                        <label>Email Address</label>
+                        <input class="form-control" data-validation-required-message="Please enter your email address." id="email" placeholder="Email Address" required
+                               type="email" name="email">
+                        <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+                
+                <div class="control-group">
+                    <div class="form-group col-xs-12 floating-label-form-group controls">
+                        <label>Phone Number</label>
+                        <input class="form-control" data-validation-required-message="Please enter your phone number." id="phone" placeholder="Phone Number" required
+                               type="tel" name="phone-number">
+                        <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+                
+                <div class="control-group">
+                    <div class="form-group floating-label-form-group controls">
+                        <label>Message</label>
+                        <textarea class="form-control" data-validation-required-message="Please enter a message." id="message" placeholder="Message" required
+                                  rows="5" name="message"></textarea>
+                        <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+                
+                <br>
+                <div id="success"></div>
+                <button class="btn btn-primary" id="sendMessageButton" type="submit">Send</button>
+            
+            </form>
+        </div>
+    </div>
+</div>
+
+<hr>
+
+{% include "footer.html" %}

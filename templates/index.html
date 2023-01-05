@@ -1,0 +1,37 @@
+{% include "header.html" %}
+
+<!-- Page Header -->
+<header class="masthead"
+        style="background-image: url({{ url_for('static', filename='images/Svolvaer.jpeg')}})" title="Svolvaer, Norway - 2018">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <div class="site-heading">
+                    <h1>I'm Barney</h1>
+                    <span class="subheading">Welcome to my website.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+            <img class="pic circle" src="static/images/face.png" alt="Barnaby Clarke Profile Pic">
+            <h1 class="wrap-text">
+                About me
+            </h1>
+            <div class="wrap-text">
+                I like to do lots of things including eating. I like to do lots of things including running.
+                I like to do lots of things including divulging in national secrets. I like to do lots of things
+                including eating. I like to do lots of things including running. <br>I like to do lots of things including
+                divulging in national secrets.
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
+
+{% include "footer.html" %}
