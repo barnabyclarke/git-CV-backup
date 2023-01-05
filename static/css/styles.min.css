@@ -3,8 +3,12 @@
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-clean-blog/blob/master/LICENSE)
  */
-body{font-size:20px;color:#212529;font-family:Lora,'Times New Roman',serif}p{line-height:1.5;margin:30px 0}p a{text-decoration:underline}h1,h2,h3,h4,h5,h6{font-weight:800;font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif}a{color:#212529;transition:all .2s}a:focus,a:hover{color:#0085a1}blockquote{font-style:italic;color:#868e96}.section-heading{font-size:36px;font-weight:700;margin-top:60px}.comment {
+body {font-size:20px;color:#212529;font-family:Lora,'Times New Roman',serif}p{line-height:1.5;margin:30px 0}p a{text-decoration:underline}h1,h2,h3,h4,h5,h6{font-weight:800;font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif}a{color:#212529;transition:all .2s}a:focus,a:hover{color:#0085a1}blockquote{font-style:italic;color:#868e96}.section-heading{font-size:36px;font-weight:700;margin-top:60px}.comment {
     padding-top: 20px;
+}
+em {
+  font-size: 18px;
+  color: #606060;
 }
 .detailBox {
     width:320px;
@@ -92,7 +96,9 @@ body{font-size:20px;color:#212529;font-family:Lora,'Times New Roman',serif}p{lin
   text-align: right;
   float: right;
 }
-em {
-  font-size: 18px;
-  color: #606060;
+.dots {
+  border-color: #A8A8A8;
+  border-style: dotted none none;
+  border-width: 4px;
+  width: 4%;
 }

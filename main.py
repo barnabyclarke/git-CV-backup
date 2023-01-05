@@ -52,6 +52,7 @@ if __name__ == "__main__":
 # TODO: do company logo watermark under Experience section or pic in top right
 # WHEN FINISHED WITH MAIN STRUCTURING
 # TODO: remove comment section code from css style sheets
+# TODO: remove files from blog
 # TODO: remove or rename elements linking to blog namings
 # TODO: optimise imports
 # TODO: look at setting info as environment variables before github run
