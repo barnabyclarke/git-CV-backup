@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    
+    <!-- My Style Sheet -->
+    <link rel="stylesheet" href="static/css/styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="static/images/favicon.ico">
+    
+    <!-- Bootstrap core CSS -->
+    <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts -->
+    <link href="static/vendor/fontawesome-free/css/all.min.css" rel="stylesheet"
+          type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'
+          type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+          rel='stylesheet' type='text/css'>
+    
+    <!-- Custom styles -->
+    <link href="static/css/styles.min.css" rel="stylesheet">
+    
+    <title>Barnaby Clarke - Personal Site</title>
+    
+</head>
+
+<body>
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <span class="navbar-brand">Barnaby Clarke</span>
+            <button aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"
+                    class="navbar-toggler navbar-toggler-right" data-target="#navbarResponsive" data-toggle="collapse"
+                    type="button">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link word-right" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link word-right" href="cv">CV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link word-right" href="contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!-- Page Header -->
+<header class="masthead"
+        style="background-image: url(static/images/snowboard.jpeg)" title="Val d'Isère, France - 2020">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <div class="site-heading">
+                    <h1>My CV</h1>
+                    <span class="subheading">A bit about me.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+            <h2>
+                Profile
+            </h2>
+            <div class="cv-profile text-preview">
+                Recent graduate, currently working as a graduate exposure management analyst on an internship with Cathedral
+                Insurance, the Lloyds syndicate within Lancashire Insurance, London. Seeking position encompassing Actuarial
+                Science, Data Analytics, and Risk Analysis across the insurance industry. Strong mathematical, analysis,
+                problem-solving, communication, coordination, and networking skills supported by a positive and outgoing
+                attitude. History of striving to learn more about financial and insurance industries to strengthen actuary
+                knowledge. <b>Areas of Knowledge & Interests include</b>:
+                <ul class="list-horizontal">
+                    <li>Modelling</li>
+                    <li>Problem-solving</li>
+                    <li>Statistics</li>
+                    <li>Risk Analysis</li>
+                    <li>Mathematics</li>
+                    <li>Data Analytics</li>
+                    <li>Accounting</li>
+                    <li>Programming</li>
+                    <li>Strategy</li>
+                    <li>Learning Actuary Sciences</li>
+                    <li>Exposure Management</li>
+                </ul>
+            </div>
+            <hr>
+            
+            <h4>
+                Education
+            </h4>
+            <div class="text-preview">
+                <b>Bachelor of Science (Hons) in Physics with Astrophysics</b> | University of Exeter, Devon, UK, 2018 -
+                <em>
+                    <b>Class</b>: 2:1
+                </em><br>
+                <hr class="dots">
+                <b>A-levels</b> | Sutton Valence School, Kent, UK, 2015<br>
+                <em>
+                    <b>A2 level</b>:  Maths A, Physics B, Geography B; <br><b>AS level</b>:  Business Studies B
+                </em><br>
+                <hr class="dots">
+                <b>Coding Proficiencies</b>:  Python, SQL, HTML, C, LaTeX, Octave
+            </div>
+            <hr>
+            
+            <h4>
+                Experience Highlights
+            </h4>
+            <div class="text-preview">
+                <!-- Lancashire -->
+                <div class="watermark lancashire">
+                    <b>Internship</b>, <a href="https://www.lancashiregroup.com/">Lancashire Insurance & Cathedral Insurance</a>, London, UK
+                    <span class="word-right col-xl-12 col-lg-6 col-md-5 col-sm-6">June 2019 - June 2022</span><br>
+                    <em>Currently spending 2 months as a paid intern in the Modelling Department as a Graduate Exposure Management Analyst.
+                    </em><br>
+                </div>
+                <hr class="dots">
+                
+                <!-- AXA -->
+                <div class="watermark axa">
+                    <b>Student Internship</b>, <a href="https://www.axa-im.co.uk/">AXA, Rosenberg Investment Management</a>, London, UK,
+                    <span class="word-right col-xl-12 col-lg-6 col-md-4 col-sm-4 col-5">Summer 2017</span><br>
+                    <em>Shadowed Investment Team as they educated clients on financial problem-solving, statistical process
+                        control, data analytics, financial calculations, reporting, price forwards curves (PFC),
+                        and regulatory compliance. Collaborated with data scientists and developers to learn about
+                        systematic equity trading platforms and trading systems based on machine learning, chart patterns,
+                        risks management, and portfolio management.
+                    </em><br>
+                </div>
+                <hr class="dots">
+                
+                <!-- Lancashire (summer role) -->
+                <div class="watermark lancashire">
+                    <b>Student Internship</b>, <a href="https://www.lancashiregroup.com/">Lancashire Insurance & Cathedral Insurance</a>, London, UK,
+                    <span class="word-right col-xl-6 col-lg-6 col-md-5 col-sm-4">Summer 2016</span><br>
+                    <em>Studied insurance industry under guidance of Group Actuary and Chief Underwriter Cathedral. Attended
+                        training sessions in each department and specialist underwriting classes in aviation and terrorism.
+                        Observed Brokers as they interacted with clients at Lloyd’s booths. Gained interest in the actuary role.
+                    </em><br>
+                </div>
+                <hr class="dots">
+                
+                <!-- Aquis -->
+                <div class="watermark aquis">
+                    <b>Student Internship</b>, <a href="https://www.aquis.eu/">Aquis Ex. Share Trading</a>, London, UK,
+                    <span class="word-right col-xl-3 col-lg-12 col-md-12 col-sm-6 col-5">Summer 2015</span><br>
+                    <em>Gained knowledge on start-up technology companies and their role as important intermediaries in
+                        financial markets. Grew understanding of how small, growing businesses are managed. Mentored by
+                        Chief Algorithm Writer and expanded Operations Department knowledge.
+                    </em><br>
+                </div>
+                
+            </div>
+            <hr>
+            
+            <h4>
+                Professional Involvement
+            </h4>
+            <div class="text-preview">
+                <!-- Snowboarding Instructor Course -->
+                <div class="watermark casi">
+                    <b>Teaching Course</b>, <a href="https://casi-acms.com/index.php/en/">CASI (Canadian Association of Snowboard Instructors)</a> -
+                    <em>Level 1.</em><span class="word-right col-xl-11 col-lg-6 col-md-3 col-sm-2 col-2">2019</span><br>
+                </div>
+            </div>
+            <hr>
+            
+            <h2 class="text-preview"><a href="static/pdf/CV-BarnabyClarke.pdf">Download my CV</a></h2>
+        </div>
+    </div>
+</div>
+<hr>
+
+<!-- Footer -->
+<footer>
+    
+    <div class="container">
+        
+        <div class="row">
+            
+            <div class="col-lg-8 col-md-10 mx-auto">
+                
+                <ul class="list-inline text-center">
+                    
+                    <!-- LinkedIn -->
+                    <li class="list-inline-item">
+                        <a href="https://www.linkedin.com/in/barnaby-clarke-4b46a8b1/">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-linkedin-in fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <!-- GitHub -->
+                    <li class="list-inline-item">
+                        <a href="https://github.com/barnabyclarke">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <p class="copyright text-muted">Copyright &copy; Barnaby Clarke
+                    <script>document.write(new Date().getFullYear())</script>
+                     - All pictures are my own 📷</p>
+                
+            </div>
+        </div>
+    </div>
+    
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="static/vendor/jquery/jquery.min.js"></script>
+<script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="static/js/styles.min.js"></script>
+
+</body>
+
+</html>

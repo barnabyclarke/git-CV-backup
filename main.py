@@ -44,8 +44,10 @@ def cv():
 
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=5000)
-    # app.run(debug=True)
+    from elsa import cli
+    cli(app, base_url='https://barnabyclarke.com')
+#     app.run(host='0.0.0.0', port=5000)
+#     app.run(debug=True)
 
 # TODO: look at setting info as environment variables before github run
 # TODO: maybe make blog private on github
