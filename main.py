@@ -18,7 +18,7 @@ def home():
     return render_template("index.html")
 
 
-@app.route('/contact', methods=['GET', 'POST'])
+@app.route('/contact/', methods=['GET', 'POST'])
 def contact():
     if request.method == "POST":
         with smtplib.SMTP("smtp.gmail.com") as connection:
@@ -38,16 +38,16 @@ def contact():
     return render_template("contact.html")
 
 
-@app.route('/cv')
+@app.route('/cv/')
 def cv():
     return render_template("cv.html")
 
 
 if __name__ == "__main__":
-    from elsa import cli
-    cli(app, base_url='https://barnabyclarke.com')
-#     app.run(host='0.0.0.0', port=5000)
-#     app.run(debug=True)
+    # from elsa import cli
+    # cli(app, base_url='https://barnabyclarke.com')
+    # app.run(host='0.0.0.0', port=5000)
+    app.run(debug=True)
 
 # TODO: look at setting info as environment variables before github run
 # TODO: maybe make blog private on github
