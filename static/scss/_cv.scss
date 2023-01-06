@@ -1,5 +1,5 @@
-// Styling for the post page
-.post-preview {
+// Styling for the cv page
+.cv-preview {
   > a {
     color: $gray-900;
     &:focus,
@@ -7,17 +7,17 @@
       text-decoration: none;
       color: $primary;
     }
-    > .post-title {
+    > .cv-title {
       font-size: 30px;
       margin-top: 30px;
       margin-bottom: 10px;
     }
-    > .post-subtitle {
+    > .cv-subtitle {
       font-weight: 300;
       margin: 0 0 10px;
     }
   }
-  > .post-meta {
+  > .cv-meta {
     font-size: 18px;
     font-style: italic;
     margin-top: 0;
@@ -34,7 +34,7 @@
   }
   @media only screen and (min-width: 768px) {
     > a {
-      > .post-title {
+      > .cv-title {
         font-size: 36px;
       }
     }
