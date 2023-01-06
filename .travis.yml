@@ -1,1 +1,1 @@
-language: python
+install: ./install-dependencies.sh
