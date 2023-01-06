@@ -47,6 +47,5 @@ if __name__ == "__main__":
     # app.run(host='0.0.0.0', port=5000)
     app.run(debug=True)
 
-# WHEN FINISHED WITH MAIN STRUCTURING
 # TODO: look at setting info as environment variables before github run
 # TODO: maybe make blog private on github
