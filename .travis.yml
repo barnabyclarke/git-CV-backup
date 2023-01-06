@@ -6,7 +6,7 @@ script:
 deploy:
   provider: script
   skip_cleanup: true
-  script: python website.py deploy --no-freeze --push
+  script: python main.py deploy --no-freeze --push
   on:
     branch: master
     repo: barnabyclarke/git-CV-backup
