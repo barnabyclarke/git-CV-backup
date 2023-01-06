@@ -1,1 +1,12 @@
-install: ./install-dependencies.sh
+language: python
+python:
+- 3.6
+script:
+- python website.py freeze
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: python website.py deploy --no-freeze --push
+  on:
+    branch: master
+    repo: barnabyclarke/git-CV-backup
