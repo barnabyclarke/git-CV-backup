@@ -1,5 +1,5 @@
 certifi==2022.12.7
-charset-normalizer==2.1.1
+charset-normalizer
 click==8.0.4
 dominate==2.7.0
 elsa==0.1.6
