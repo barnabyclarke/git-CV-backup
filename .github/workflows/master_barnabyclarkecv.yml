@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'barnabyclarkeCV'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B605C8BD3EE24872A5415A874E11E120 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_244376923EA04FBCA8647E90FB032566 }}
