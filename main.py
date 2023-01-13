@@ -1,16 +1,17 @@
+import os
 import smtplib
 
 from flask import Flask, render_template, url_for, request
 from flask_bootstrap import Bootstrap
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = "seoifnoseinfiosefhosue"
+app.config['SECRET_KEY'] = os.environ['FLASK_SECRET_KEY']
 Bootstrap(app)
 
 
-PASSWORD = "qocdlolkqxdyivsu"
-MY_GMAIL = "hlangmore420@gmail.com"
-MY_YAHOO_MAIL = "barnabyclarke@yahoo.co.uk"
+PASSWORD = os.environ['EMAIL_PASSWORD']
+MY_GMAIL = os.environ['EMAIL']
+MY_YAHOO_MAIL = os.environ['MY_EMAIL']
 
 
 @app.route('/')
@@ -47,7 +48,7 @@ if __name__ == "__main__":
     # from elsa import cli
     # cli(app, base_url='https://barnabyclarke.com')
     # app.run(host='0.0.0.0', port=5000)
-    app.run(debug=True)
+    app.run()
 
-# TODO: look at setting info as environment variables before github run
 # TODO: maybe make blog private on github
+# TODO: add black background to buttons on hover
