@@ -45,10 +45,4 @@ def cv():
 
 
 if __name__ == "__main__":
-    # from elsa import cli
-    # cli(app, base_url='https://barnabyclarke.com')
-    # app.run(host='0.0.0.0', port=5000)
     app.run()
-
-# TODO: maybe make blog private on github
-# TODO: add black background to buttons on hover

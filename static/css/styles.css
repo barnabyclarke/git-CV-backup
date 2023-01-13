@@ -152,14 +152,14 @@ img::-moz-selection {
     color: #fff;
   }
   #mainNav .navbar-brand:focus, #mainNav {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 1);
   }
   #mainNav .navbar-nav > li.nav-item > a {
     padding: 10px 20px;
     color: #fff;
   }
   #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 1);
   }
 }
 
@@ -436,3 +436,10 @@ footer .copyright {
   padding: 25px 35px;
 }
 
+@media (min-width: 992px) {
+  .nav-link-item:hover, .nav-link-item:focus, .nav-link-item:active {
+    font-color: rgba(255,255,255,1);
+    background-color: rgba(0,0,0,.2) !important;
+    border-color: rgba(0,0,0,.2) !important;
+  }
+}
